@@ -11,7 +11,13 @@
         <attr name="qrcv_cornerColor" format="color|reference"/>
         <!--扫描框的宽度，默认值200dp-->
         <attr name="qrcv_rectWidth" format="dimension|reference"/>
-        <!--除去扫描框，其余部分y阴影颜色-->
+        <!--除去扫描框，其余部分y阴影颜色，默认值为#33FFFFFF-->
         <attr name="qrcv_maskColor" format="color|reference"/>
+        <!--扫描线的宽度，默认值为1dp-->
+        <attr name="qrcv_scanLineSize" format="dimension|reference"/>
+        <!--扫描线的颜色，默认值为@android:color/white-->
+        <attr name="qrcv_scanLineColor" format="color|reference"/>
+        <!--扫描线距离左右边框的间距，默认值为false-->
+        <attr name ="qrcv_scanLineHorizontalMargin" format="dimension|reference"/>
     </declare-styleable>>
 </resources>
