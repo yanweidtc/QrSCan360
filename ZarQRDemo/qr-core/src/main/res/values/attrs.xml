@@ -11,7 +11,7 @@
         <attr name="qrcv_cornerColor" format="color|reference"/>
         <!--扫描框的宽度，默认值200dp-->
         <attr name="qrcv_rectWidth" format="dimension|reference"/>
-        <!--除去扫描框，其余部分y阴影颜色-->
-        <attr name="qrcv_maskColor" format="color|reference"/>
+        <!--除去扫描框，其余部分阴影颜色#33FFFFFF-->
+        <attr name="qrcv_maskColor" formt5vvat="color|reference"/>
     </declare-styleable>>
 </resources>
